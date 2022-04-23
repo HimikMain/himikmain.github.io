@@ -16,12 +16,12 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link href="../css/index.css" rel="stylesheet" type="text/css">
     <link href="../css/game2.css" rel="stylesheet" type="text/css">
-    <title>ovolabeaN - О нас</title>
+    <title>ovolabeaN - Plinko</title>
   </head>
   <body>
     <header class="header">
       <h1>
-        <a href="index.html">ovolabeaN</a>
+        <a href="../index.html">ovolabeaN</a>
       </h1>
       <nav>
         <a href="about.html">О нас</a>
@@ -32,9 +32,15 @@
     </header>
 
     
-    <button class="start" onclick="start()">КНОПКА</button>
+    <button class="start" onclick="newParticle()">КНОПКА</button>
 
-    <script src="../js/game2.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/libraries/matter.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/libraries/p5.js"></script>
+    
+    <script language="javascript" type="text/javascript" src="../js/game2.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/particle.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/point.js"></script>
+    <script language="javascript" type="text/javascript" src="../js/boundary.js"></script>
     
     <footer>
       
