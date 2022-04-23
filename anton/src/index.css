@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation{
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: 'Updock', cursive;
+}
+
+.cover{
+  object-fit: cover;
+  width: 100%;
+}
+h1{
+  font-size: 72px;
+}
+
+.gradient-text {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 10px;
+  left: 16px;
+}
+
+a{
+  text-decoration: none;
+  top: 8px;
+  right: 16px;
+  font-size: 20px;
+  position: absolute;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#one{
+  right: 430px;
+}
+
+#two{
+  right: 250px;
+}
+
+#three{
+  right: 170px;
+}
+
+#four{
+  right: 25px;
+}
+
+.nav-buttons{
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
