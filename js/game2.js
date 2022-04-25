@@ -61,6 +61,12 @@ function newParticle(){
     particles.push(p);
 }
 
+function setCols(numCols){
+    cols = numCols;
+    clearCanvas();
+    setup();
+}
+
 function draw() {
     background(51);
     Engine.update(engine);
@@ -70,4 +76,10 @@ function draw() {
     for (var i = 0; i < points.length; i++){
         points[i].show();
     }
+}
+
+function clearCanvas (){
+    bounds = [];
+    particles = [];
+    points = [];
 }
